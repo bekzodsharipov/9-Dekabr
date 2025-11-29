@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{setTimeout((()=>{document.querySelectorAll(".minifyImg").forEach((e=>{const t=e.getAttribute("data-src");if(!t)return;const n=new Image;n.src=t,n.onload=()=>{e.src=t,e.classList.remove("blur-up")},n.onerror=()=>{console.warn("Rasm yuklanmadi:",t)}}))}),1e3)}));
